@@ -9,10 +9,7 @@ body {
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
-    background-image: url(POWERNET.png);
-    background-position: center;
-    background-repeat: no-repeat;
-
+  
 }
 
 .container {
