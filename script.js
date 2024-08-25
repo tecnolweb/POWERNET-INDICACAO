@@ -9,7 +9,7 @@ document.getElementById('indicacaoForm').addEventListener('submit', function(e) 
     const texto = `Indicação: óla estou indicando o senhor(a):\n\nNome do Indicador: ${nomeIndicador}\nNome da Pessoa Indicada: ${nomeIndicado}\nNúmero de Telefone: ${telefoneIndicado}`;
 
     const encodedText = encodeURIComponent(texto);
-    const numeroWhatsApp = '5581989630005';
+    const numeroWhatsApp = '5581982103802';
     const whatsappUrl = `https://wa.me/${numeroWhatsApp}?text=${encodedText}`;
 
     window.open(whatsappUrl, '_blank');
